@@ -1,0 +1,9 @@
+version: '2.2'
+
+services:
+  user_msqp:
+    image: chatster/user_msqp
+    build: .
+    container_name: user_msqp
+    ports:
+      - 2920:2920
